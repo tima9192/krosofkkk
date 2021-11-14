@@ -1,0 +1,77 @@
+@media(max-width:1052px){
+    .nike {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .item {
+        margin-top: 20px;
+    }
+
+    .item3 {
+        margin-top: 50px ;
+    }
+
+    .box__left{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .nav__item{
+        flex-direction: column;
+        
+    }
+    .box__right{
+        margin-top: 30px;
+    }
+  
+}
+
+@media(max-width:580px) {
+    .nav-item {
+        padding: 0 10px;
+    }
+
+.list {
+    padding:40px;
+}
+}
+
+@media(max-width:576px){
+    .list{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .footer__right{
+        flex-wrap: wrap;
+       
+    }
+    .footer__info{
+        flex-direction: column;
+        align-items:center
+    }
+    .box__right{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .item{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media(max-width:320px){ 
+  .main__nike{
+      width: 100%;
+  }
+  .box__left{
+      width: 100%;
+  }
+    
+}
+
+
+

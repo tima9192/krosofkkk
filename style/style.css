@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width:1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav {
+    background: #322E41;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link {
+    padding: 23px 14px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav__link:hover {
+    background-color: white;
+    color: #D47300;
+}
+
+.header {
+    background-image: url(../images/nike.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__nike {
+    width: 100%;
+}
+
+.header__title {
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.header__text {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* Header end */
+/* Main start */
+.box__left {
+    width: 540px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: -30px;
+}
+
+.main {
+    background: #E5E5E5;
+}
+
+.left__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+}
+
+.left__text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+    text-align: justify;
+}
+
+.nike {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.item {
+    width: 255px;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    height: 220px;
+}
+
+.item__title {
+    margin: 12px 0;
+    font-size: 22px;
+    line-height: 6px;
+    text-align: center;
+    color: #2C2A2A;
+}
+
+.item__text {
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+    text-align: center;
+}
+
+.box__right {
+    margin-top: -30px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.footer {
+    padding: 37px 0 57px;
+    background: #322E41;
+}
+
+.footer__left,
+.footer__right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__info {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.input {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.input::placeholder,
+textarea::placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    color: #9B9B9B;
+}
+
+.textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    resize: none;
+    height: 85px;
+}
+
+.button {
+    background: #544294;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 4px 0;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+.footer__menu {
+    list-style: none;
+    margin: 0 35px;
+    margin-top: 20px;
+}
+.footer__menu li{
+    margin-top: 10px;
+}
+.footer__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;  
+}
+.footer__link:hover{
+    color: #D57300;
+}
